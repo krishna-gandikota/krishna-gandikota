@@ -1,0 +1,30 @@
+.peopleCentre{
+    right: 10%;
+    top: calc(865px / 4);
+}
+
+@media screen and (max-width: 767px) {
+
+.manhelpImage{
+    width: 84%;
+    margin-top: 0px;
+}
+}
+
+@media screen and (min-width: 768px) {
+
+.manhelpImage_Tablet{
+   width: 100%;    
+
+}
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .manhelpImage_Tablet{
+       width: 91%;    
+    
+    }
+    
+    }

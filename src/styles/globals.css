@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*>*{
+  font-family: 'Poppins', sans-serif;}
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -103,5 +112,35 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+.loader{
+
+  @apply border-gray-200 rounded-full border-4 ease-linear h-10 w-10;
+  border-top-color:#363ce0;
+  animation:spinner 1.2s linear infinite;
+}
+@keyframes spinner{
+  0% {transform:rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+.bg-gradient::after {
+  background: radial-gradient(600px circle at var(--mouse-x) var(--mouse-y), rgba(255, 255, 255, 0.6), transparent 20%);
+}
+@media (max-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: unset !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) { 
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+       padding: 0rem 1rem!important
   }
 }

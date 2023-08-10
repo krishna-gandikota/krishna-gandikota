@@ -9,14 +9,38 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@hookform/resolvers": "^3.1.1",
     "@types/node": "18.15.11",
     "@types/react": "18.0.31",
     "@types/react-dom": "18.0.11",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.3.1",
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
+    "mdb-react-ui-kit": "^6.1.0",
     "next": "13.2.4",
+    "pagination-react-hooks": "^1.1.0",
     "react": "18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-bootstrap-v5": "^1.4.0",
     "react-dom": "18.2.0",
-    "typescript": "5.0.2"
+    "react-feather": "^2.0.10",
+    "react-form-input-validation": "^2.1.0",
+    "react-hook-form": "^7.44.3",
+    "react-icons": "^4.8.0",
+    "react-paginate": "^8.2.0",
+    "sass": "^1.61.0",
+    "semantic-ui-react": "^2.1.4",
+    "swiper": "8.4.7",
+    "swr": "^2.1.2",
+    "typescript": "5.0.2",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "react-simple-chatbot": "^0.6.1",
+    "tailwindcss": "^3.3.0"
   }
 }
